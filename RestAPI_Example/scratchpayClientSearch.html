@@ -1,0 +1,36 @@
+<!--scratchpay clinic search html-->
+<!DOCTYPE html>
+<head>
+  <title>Search</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<html>
+	<body>
+		<form method="post" action="http://localhost:3000">
+			<div class="container">
+				<div class="row">
+					<p>Name:</p>
+					<input type="text" name="name" />
+				</div>
+				<div class="row">
+					<p>State:</p>
+					<input type="text" name="state" />
+				</div>
+				<div class="row">
+					<p>From:</p>
+					<input type="time" name="from" />
+				</div>
+				<div class="row">
+					<p>To:</p>
+					<input type="time" name="to" />
+				</div>
+				<div class="row">
+					<input type="submit" name="search" />
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
